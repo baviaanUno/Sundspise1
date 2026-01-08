@@ -103,7 +103,7 @@ nav{
 header{
     padding-top: 7em;
     padding-left: 1em;
-    background-image: url("images/backgroundligt.webp");
+    background-image: url("../images/backgroundligt.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -300px -400px;
@@ -269,6 +269,8 @@ margin-left: 1em;
 @media (min-width: 1400px){
     .navd{
         display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
         gap: 4em;
         padding-top: 2em;
     }
@@ -286,6 +288,7 @@ margin-left: 1em;
         text-decoration: none;
         color: #001355;
     }
+    
     .hamburg{
         display: none;
     }
@@ -294,7 +297,7 @@ margin-left: 1em;
     }
 
 
-
+    
 
     .vibee{
         width: 60%;
