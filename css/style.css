@@ -103,7 +103,7 @@ nav{
 header{
     padding-top: 7em;
     padding-left: 1em;
-    background-image: url(/images/backgroundligt.webp);
+    background-image: url("../images/backgroundligt.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -300px -400px;
