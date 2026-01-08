@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/zyr4pus.css">
+<link rel="stylesheet" href="/css/features.css">
+
+</head>
+<body>
+    <nav>
+       <a href="index.html"><img class="logo" src="images/logo.svg" alt="logo"></a>
+           <div class="navd">
+        <a class="toplink" href="index.html">Home</a>
+        <a class="toplink" href="features.html">Features</a>
+        <a class="toplink" href="subscription.html">Subscriptions</a>
+        <a class="toplink" href="download.html">Dowload</a>
+        </div>
+           <a class="toplinkL" href="login.html">Login</a>
+        <input type="checkbox" id="hamburger">
+        <label class="menu-btn" for="hamburger">
+        <img class="hamburg" src="images/hamburger.svg" alt="hamburger">
+        <img class="close" src="images/kruis.svg" alt="">
+        </label>
+        <div class="slideout">
+            <a class="navh" href="index.html">Home</a>
+            <a class="navh" href="features.html">Features</a>
+            <a class="navh" href="subscription.html">Subscriptions</a>
+            <a class="navh" href="download.html">Download</a>
+            <a class="navh" href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="orde">
+  <div class="dropdown">
+    <button class="dropbtn">
+      List of features
+      <img src="images/drop.svg" alt="dropdown arrow">
+    </button>
+    <div class="dropdown-content">
+      <a href="Accounts.html">Accounts</a>
+      <a href="Playlists.html">Playlists</a>
+      <a href="Songs.html">Songs</a>
+      <a href="Audio.html">Audio</a>
+      <a href="Groundfloormode.html">Groundfloormode</a>
+      <a href="Instrumentalmode.html">Instrumentalmode</a>
+    </div>
+  </div>
+
+  <div class="feat">
+    <h1>List of features</h1>
+    <a href="Accounts.html">Accounts</a>
+    <a href="Playlists.html">Playlists</a>
+    <a href="Songs.html">Songs</a>
+    <a href="Audio.html">Audio</a>
+    <a href="Groundfloormode.html">Groundfloormode</a>
+    <a href="Instrumentalmode.html">Instrumentalmode</a>
+  </div>
+
+  <div class="feate">
+    <h1>Accounts</h1>
+    <img class="featimg" src="images/Collega.webp" alt="Collega">
+    <h2>Hoofdaccount</h2>
+    <p>Het hoofdaccount is van de restauranteigenaar. Hiermee beheer je het restaurant, abonnement, instellingen en alle gebruikers.</p>
+    <h2>Subaccounts</h2>
+    <p>Subaccounts zijn voor medewerkers (zoals managers of personeel). Zij hebben hun eigen login en alleen toegang tot de functies die voor hen zijn toegestaan.</p>
+    <h2>Kort samengevat</h2>
+    <p>Één hoofdaccount voor volledige controle, meerdere subaccounts voor het team alles centraal beheerd binnen Sundspise.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    //dit heb ik met Ai gedaan want heb geen ervaring met javascript alleen p5😎
+const dropBtn = document.querySelector('.dropbtn');
+const dropdown = document.querySelector('.dropdown');
+
+dropBtn.addEventListener('click', () => {
+  dropdown.classList.toggle('show');
+});
+
+// Sluit dropdown als je buiten klikt
+window.addEventListener('click', (e) => {
+  if (!dropdown.contains(e.target)) {
+    dropdown.classList.remove('show');
+  }
+});
+</script>
+
+
+
+        <footer>
+        <div class="linkf">
+        <a class="linkff" href="download.html">Download</a>
+        <a class="linkff" href="subscription.html">Subscription</a>
+        <a class="linkff" href="features.html">Features</a>
+        <a class="linkff" href="login.html">Login</a>
+        </div>
+        <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+        <h2 class="email">sundspise@gmail.com</h2>
+    </footer>
+</body>
+</html>
